@@ -38,7 +38,7 @@ Before you begin, ensure you have the following:
 Installation
 ------------
 
-1.  ```git clone [https://github.com/yourusername/real-time-data-pipeline.gitcd real-time-data-pipeline](https://github.com/ChihTsungLu/Real-Time-Data-Pipeline.git)```
+1.  ```git clone https://github.com/ChihTsungLu/Real-Time-Data-Pipeline.git```
     
 2.  **Set Up Docker Compose**:
     
