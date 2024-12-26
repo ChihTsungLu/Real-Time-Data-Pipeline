@@ -38,7 +38,7 @@ Before you begin, ensure you have the following:
 Installation
 ------------
 
-1.  bash複製程式碼git clone https://github.com/yourusername/real-time-data-pipeline.gitcd real-time-data-pipeline
+1.  ```git clone [https://github.com/yourusername/real-time-data-pipeline.gitcd real-time-data-pipeline](https://github.com/ChihTsungLu/Real-Time-Data-Pipeline.git)```
     
 2.  **Set Up Docker Compose**:
     
@@ -50,7 +50,7 @@ Installation
 Configuration
 -------------
 
-1.  python複製程式碼AWS\_ACCESS\_KEY = "YOUR\_AWS\_ACCESS\_KEY"AWS\_SECRET\_KEY = "YOUR\_AWS\_SECRET\_KEY"
+1.  ```AWS\_ACCESS\_KEY = "YOUR\_AWS\_ACCESS\_KEY"AWS\_SECRET\_KEY = "YOUR\_AWS\_SECRET\_KEY"```
     
 2.  Ensure your AWS IAM role has appropriate permissions for S3, Glue, and RedShift.
     
@@ -58,9 +58,9 @@ Configuration
 Running the Pipeline
 --------------------
 
-1.  bash複製程式碼docker-compose up
+1.  ```docker-compose up```
     
-2.  bash複製程式碼python main.py
+2. ```python main.py```
     
 3.  Monitor the pipeline:
     
